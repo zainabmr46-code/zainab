@@ -17,9 +17,9 @@ export const profile = {
 
   email: "zainabmr46@gmail.com",
 
-  resumeUrl: "resume.pdf",
+  resumeUrl: `${import.meta.env.BASE_URL}resume.pdf`,
 
- photoUrl: "/zainab/zainab.jpeg",
+  photoUrl: `${import.meta.env.BASE_URL}zainab.jpeg`,
 
   status:
     "Open to Internship & Entry-Level Opportunities",
@@ -232,7 +232,8 @@ export const projects = [
     ],
 
     image:
-      "public/srcb64=aHR0cHM6Ly90Yi1zdGF0aWMudWJlci5jb20vcHJvZC91ZGFtLWFzc2V0cy82ZmM0YmM1YS02ZTc3LTQ5YmYtYTJiMi04ZGY4ODFhZDExZmYud2VicA==.webp",
+      `${import.meta.env.BASE_URL}learninghub.webp`,
+
     liveUrl:
       "https://github.com/zainabmr46-code/udemy-clone",
 
@@ -429,7 +430,7 @@ export const projects = [
     ],
 
     image:
-      "public/laptop-strong-password-generator.avif",
+      `${import.meta.env.BASE_URL}laptop-strong-password-generator.avif`,
 
     liveUrl:
       "https://github.com/zainabmr46-code/JavaScript-Password-Generator",
