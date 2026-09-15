@@ -68,7 +68,7 @@ function AnimatedRoutes() {
 
 export default function App() {
   return (
-    <BrowserRouter basename="/portfolio">
+    <BrowserRouter basename="/zainab">
       <div className="min-h-screen flex flex-col bg-ink text-mist font-body">
         <Nav />
 

@@ -19,7 +19,7 @@ export const profile = {
 
   resumeUrl: "resume.pdf",
 
-  photoUrl: "zainab.jpeg",
+ photoUrl: "/zainab/zainab.jpeg",
 
   status:
     "Open to Internship & Entry-Level Opportunities",
